@@ -36,10 +36,6 @@ This project is actively under development, and future plans include:
 
 Contributions and suggestions are welcome! Feel free to open issues and submit pull requests to help improve the project.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 We would like to express our gratitude to the developers and contributors of the following libraries and frameworks that made this project possible:
