@@ -1,4 +1,4 @@
-# FaceAndHandRecognition
+# Face and Hand Recognition
 
 FaceAndHandRecognition is an innovative project that combines the power of face recognition and hand tracking to enhance security measures and enable intuitive gesture-based actions. 
 
@@ -20,10 +20,22 @@ Once authenticated, users can interact with the system through hand gestures, wh
 
 To use the FaceAndHandRecognition project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/FaceAndHandRecognition.git`
+1. Clone the repository: `git clone https://github.com/HorizonChaser12/FaceAndHandRecognition.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Set up the necessary hardware devices (e.g., camera, hand tracking sensor).
-4. Run the project: `python main.py`
+4. Place the images of the faces you want to recognize in the Images folder.
+   Update the path variable in the script to the path of the Images folder on your system.
+   The script will open the webcam feed and start recognizing hand gestures and faces.
+5. Run the project: `python hand_gesture_and_face_recognition.py`.
+- Perform various hand gestures to trigger different actions.
+- If a recognized face is detected, it will display the name associated with the face.
+- If a face is not recognized, it will prompt for a password to gain access.
+
+## Troubleshooting
+
+- If the script is not recognizing your hand gestures properly, try adjusting the min_detection_confidence and min_tracking_confidence parameters in the hands =     
+  mpHands.Hands() function.
+- Make sure the lighting conditions are suitable for accurate hand and face detection.
 
 ## Future Development
 
