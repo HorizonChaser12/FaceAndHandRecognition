@@ -152,7 +152,7 @@ def HandRecognition():
             ##############################
             # Gestures start here
             #############################
-            # for opening a new word file
+            # for opening a new Word file
             if fingers[0] == 1 and fingers[1] == 1 and fingers[2] == 1 and fingers[3] == 1 and fingers[4] == 0:
                 while t:
                     os.startfile("C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE")
@@ -289,7 +289,6 @@ def face_recog():
             if matches[matchIndex]:
                 name = classNames[matchIndex].upper()
 
-
             if name == "Not Recognized":
                 cnt = pyautogui.alert('Face not Recognized click ok to get Access')
                 if cnt == "OK":
@@ -328,9 +327,9 @@ def face_recog():
 #########################################
 x = face_recog()
 while a:
-    if x == True:
-        pyautogui.alert("Face has been recognised.Implementing Hand Recognition.")
+    if x:
+        pyautogui.alert("Face has been recognised./nImplementing Hand Recognition.")
         HandRecognition()
-    elif (x != True):
+    elif x != True:
         pyautogui.alert("The face isn't recognised...trying again!")
         x = face_recog()
