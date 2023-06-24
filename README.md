@@ -20,7 +20,7 @@ Once authenticated, users can interact with the system through hand gestures, wh
 
 To use the FaceAndHandRecognition project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/FaceAndHandRecognition.git`
+1. Clone the repository: `git clone https://github.com/HorizonChaser12/FaceAndHandRecognition.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Set up the necessary hardware devices (e.g., camera, hand tracking sensor).
 4. Place the images of the faces you want to recognize in the Images folder.
