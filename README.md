@@ -27,9 +27,9 @@ To use the FaceAndHandRecognition project, follow these steps:
    Update the path variable in the script to the path of the Images folder on your system.
    The script will open the webcam feed and start recognizing hand gestures and faces.
 5. Run the project: `python hand_gesture_and_face_recognition.py`.
-  -Perform various hand gestures to trigger different actions.
-  -If a recognized face is detected, it will display the name associated with the face.
-  -If a face is not recognized, it will prompt for a password to gain access.
+- Perform various hand gestures to trigger different actions.
+- If a recognized face is detected, it will display the name associated with the face.
+- If a face is not recognized, it will prompt for a password to gain access.
 
 ## Troubleshooting
 
