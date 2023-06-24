@@ -31,7 +31,7 @@ To use the FaceAndHandRecognition project, follow these steps:
   -If a recognized face is detected, it will display the name associated with the face.
   -If a face is not recognized, it will prompt for a password to gain access.
 
-##Troubleshooting
+## Troubleshooting
 
 - If the script is not recognizing your hand gestures properly, try adjusting the min_detection_confidence and min_tracking_confidence parameters in the hands =     
   mpHands.Hands() function.
