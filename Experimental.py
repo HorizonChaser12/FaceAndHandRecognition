@@ -284,13 +284,13 @@ def face_recog():
             name = "Not Recognized"
             faceDist = face_recognition.face_distance(encoded_face_train, encode_face)
             matchIndex = np.argmin(faceDist)
-
             print(matches[matchIndex])
+
             if matches[matchIndex]:
                 name = classNames[matchIndex].upper()
 
 
-            if name == "Not Recognized":
+            elif name == "Not Recognized":
                 cnt = pyautogui.alert('Face not Recognized click ok to get Access')
                 if cnt == "OK":
                     password = pyautogui.password("Enter the password", "BTC", mask='*')
@@ -298,7 +298,6 @@ def face_recog():
                         os.startfile("D:\\Coding\\HandTracking(HACKLATHON)\\Images")
                         os.system("D:\\Coding\\HandTracking(HACKLATHON)\\Images")
                     else:
-
                         pyautogui.alert("password is incorrect")
                         quit()
 
@@ -327,10 +326,11 @@ def face_recog():
 # face recognition function ends
 #########################################
 x = face_recog()
+print(x)
 while a:
     if x == True:
-        pyautogui.alert("Face has been recognised.Implementing Hand Recognition.")
+        pyautogui.alert("has been recognised.Implementing Hand Recognition.")
         HandRecognition()
     elif (x != True):
-        pyautogui.alert("The face isn't recognised...trying again!")
+        pyautogui.alert("The face isn't recognised...you can try again or contact the Admin!")
         x = face_recog()
