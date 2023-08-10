@@ -54,5 +54,4 @@ We would like to express our gratitude to the developers and contributors of the
 
 - OpenCV
 - TensorFlow
-- PyTorch
 - and other open-source projects used in this project.
