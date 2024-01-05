@@ -33,10 +33,10 @@ To use the FaceAndHandRecognition project, follow these steps:
 
 ## Troubleshooting
 
-- If the script is not recognizing your hand gestures properly, try adjusting the min_detection_confidence and min_tracking_confidence parameters in the hands =     
-  mpHands.Hands() function.
+- If the script is not recognizing your hand gestures properly, try adjusting the min_detection_confidence and min_tracking_confidence parameters in the hands = 
+ mpHands.Hands() function.
 - Make sure the lighting conditions are suitable for accurate hand and face detection.
-- If you get some issues while installing Face-Recognition Module then use the dlip-master.zip and read the instructions.
+- If you get some issues while installing Face-Recognition Module then use the dlib-master.zip and read the instructions.
 
 ## Future Development
 
